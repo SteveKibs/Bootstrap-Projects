@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<meta charset="utf-8">
+	<meta name="viewport content=width=device-width initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<style type="text/css">
+	.orang:hover > .menu {
+		display: inline-grid;
+	}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="btn-group">
+		<button type="button" class="btn btn-info">Information</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+	</div>
+	<div class="btn-group btn-group-justified">
+		<div class="btn-group">
+			<a href="#" class="btn btn-info">Apple</a>
+		</div>
+		<div class="btn-group">
+			<a href="#" class="btn btn-info">Mango</a>
+		</div>
+		<div class="btn-group">
+			<a href="#" class="orang btn btn-info dropdown-toggle" data-toggle="dropdown">Orange <span class="caret"></span></a>
+			<ul class="menu dropdown-menu">
+				<li><a href="#">Orange Damu</a></li>
+				<li class="list-divider"></li>
+				<li><a href="#">Orange Dudu</a></li>
+			</ul>
+		</div>
+		
+	</div>
+</div>
+
+</body>
+</html>

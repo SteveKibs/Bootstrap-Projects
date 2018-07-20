@@ -1,0 +1,23 @@
+table, th, tr, td {
+	border: 1px solid black;
+	border-spacing: 15px;
+	
+
+}
+th {
+	background-color: black;
+	text-align: left;
+	color: white;
+}
+th, td {
+	padding: 15px;
+	
+}
+table#t01 tr:nth-child(even) {
+	background-color: #eee;
+
+
+}
+table#t01 tr:nth-child(odd) {
+	background-color: white;
+}
